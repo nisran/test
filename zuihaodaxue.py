@@ -31,4 +31,7 @@ def main():
     html = getHTMLText(url)
     fillUnivList(unifo,html)
     printUnivList(unifo,20)
+	
+def test():
+	print('hello')
 main()
